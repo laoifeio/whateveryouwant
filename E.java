@@ -18,7 +18,6 @@ public class E {
         if (isPopulation == 1){standeviat = Math.sqrt(standeviat/mightmatter.length);
         }
         else if(isPopulation == 0){
-            System.out.println("LMao");
             standeviat = Math.sqrt(standeviat/(mightmatter.length-1));
         }
        
