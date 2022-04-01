@@ -23,23 +23,23 @@ public class BEJOEO {
 		
 		System.out.println("giv number again lol");
 		double num2 = number.nextDouble();
-		
+		double result;
 		switch(operation){
 			case "+":
-				Double result = num1 + num2;
+				result = num1 + num2;
 				System.out.println(result);
 				break;
 			case "-":
-				Double result2 = num1 - num2;
-				System.out.println(result2);
+				result = num1 - num2;
+				System.out.println(result);
 				break;
 			case "*":
-				Double result3 = num1 * num2;
-				System.out.println(result3);
+				Dresult = num1 * num2;
+				System.out.println(result);
 				break;
 			case "/":
-				Double result4 = num1 + num2;
-				System.out.println(result4);
+				result= num1 + num2;
+				System.out.println(result);
 				break;
 			default:
 				System.out.println("invalid");
