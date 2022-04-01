@@ -44,9 +44,13 @@ public class BEJOEO {
 			default:
 				System.out.println("invalid");
 		}*/
+		int num1 = 1, num2 = 1, sum;
+		for(int x = 1; x <= 10; x++){
+			System.out.println(num1);
+			sum = num1 + num2;
+			num1 = num2;
+			num2 = sum;			
 
-		for(x = 0; x > 1; x++){
-			
 		}
 		
 	}
